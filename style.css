@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    padding: 55px;
+    box-shadow: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    margin: 15px;
+}
+#submit {
+    background-color: rgb(76, 139, 248);
+    color:white;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+#submit:hover {
+    background-color: rgb(171, 213, 246);
+    margin: 10px;}
+
+#username {
+    border:none;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    background-color: whitesmoke;
+    color: gray;
+    margin: 10px;}
+#password {
+    border:none;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    background-color: whitesmoke;
+    color: gray;
+    margin: 10px;
+}
